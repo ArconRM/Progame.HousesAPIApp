@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.BLL", "Progame.HousesAPIApp.BLL\Progame.HousesAPIApp.BLL.csproj", "{F4883DA0-B089-4A2D-8298-34468FAD4F1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.BLL.Interfaces", "Progame.HousesAPIApp.BLL.Interfaces\Progame.HousesAPIApp.BLL.Interfaces.csproj", "{6B1F2872-3E69-431A-8EDC-5641E0CEB94B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.Common.Entities", "Progame.HousesAPIApp.Common.Entities\Progame.HousesAPIApp.Common.Entities.csproj", "{1E749AA3-A7C5-4952-913F-1AFA82CB9C97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.Common.DependencyInjections", "Progame.HousesAPIApp.Common.DependencyInjections\Progame.HousesAPIApp.Common.DependencyInjections.csproj", "{92BFE63D-3131-4886-86EC-F3034B650AE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.DAL", "Progame.HousesAPIApp.DAL\Progame.HousesAPIApp.DAL.csproj", "{A0ED8E27-0769-4EE4-AA5B-30D251A18B99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Progame.HousesAPIApp.DAL.Interfaces", "Progame.HousesAPIApp.DAL.Interfaces\Progame.HousesAPIApp.DAL.Interfaces.csproj", "{4B1D7273-FC7B-44E2-A24D-8424215E1BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progame.API.Houses", "Progame.API.Houses\Progame.API.Houses.csproj", "{4EE3C4B6-C3C1-4A19-863F-10BC782C410F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4883DA0-B089-4A2D-8298-34468FAD4F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4883DA0-B089-4A2D-8298-34468FAD4F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4883DA0-B089-4A2D-8298-34468FAD4F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4883DA0-B089-4A2D-8298-34468FAD4F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1F2872-3E69-431A-8EDC-5641E0CEB94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1F2872-3E69-431A-8EDC-5641E0CEB94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1F2872-3E69-431A-8EDC-5641E0CEB94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1F2872-3E69-431A-8EDC-5641E0CEB94B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E749AA3-A7C5-4952-913F-1AFA82CB9C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E749AA3-A7C5-4952-913F-1AFA82CB9C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E749AA3-A7C5-4952-913F-1AFA82CB9C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E749AA3-A7C5-4952-913F-1AFA82CB9C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BFE63D-3131-4886-86EC-F3034B650AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BFE63D-3131-4886-86EC-F3034B650AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BFE63D-3131-4886-86EC-F3034B650AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BFE63D-3131-4886-86EC-F3034B650AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0ED8E27-0769-4EE4-AA5B-30D251A18B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ED8E27-0769-4EE4-AA5B-30D251A18B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ED8E27-0769-4EE4-AA5B-30D251A18B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ED8E27-0769-4EE4-AA5B-30D251A18B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1D7273-FC7B-44E2-A24D-8424215E1BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1D7273-FC7B-44E2-A24D-8424215E1BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1D7273-FC7B-44E2-A24D-8424215E1BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1D7273-FC7B-44E2-A24D-8424215E1BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE3C4B6-C3C1-4A19-863F-10BC782C410F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE3C4B6-C3C1-4A19-863F-10BC782C410F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE3C4B6-C3C1-4A19-863F-10BC782C410F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE3C4B6-C3C1-4A19-863F-10BC782C410F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C37C40F-FAB6-4C1B-A4FF-F74F1B109669}
+	EndGlobalSection
+EndGlobal

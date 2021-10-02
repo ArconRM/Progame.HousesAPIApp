@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Progame.HousesAPIApp.Common.Entities\Progame.HousesAPIApp.Common.Entities.csproj" />
+    <ProjectReference Include="..\Progame.HousesAPIApp.DAL.Interfaces\Progame.HousesAPIApp.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

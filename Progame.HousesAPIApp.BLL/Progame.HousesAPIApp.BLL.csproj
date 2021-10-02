@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Progame.HousesAPIApp.BLL.Interfaces\Progame.HousesAPIApp.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\Progame.HousesAPIApp.DAL.Interfaces\Progame.HousesAPIApp.DAL.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
